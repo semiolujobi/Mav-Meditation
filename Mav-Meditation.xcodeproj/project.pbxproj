@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		353746042A5FB14D00D7C14D /* Mav_MeditationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353746032A5FB14D00D7C14D /* Mav_MeditationApp.swift */; };
+		353746062A5FB14D00D7C14D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353746052A5FB14D00D7C14D /* ContentView.swift */; };
+		353746082A5FB14F00D7C14D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353746072A5FB14F00D7C14D /* Assets.xcassets */; };
+		3537460B2A5FB14F00D7C14D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3537460A2A5FB14F00D7C14D /* Preview Assets.xcassets */; };
+		353746122A5FB24900D7C14D /* MeditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353746112A5FB24900D7C14D /* MeditationView.swift */; };
+		353746142A5FB66A00D7C14D /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353746132A5FB66A00D7C14D /* PlayerView.swift */; };
+		353746162A5FB94500D7C14D /* PlaybackControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353746152A5FB94500D7C14D /* PlaybackControlButton.swift */; };
+		353746182A60666E00D7C14D /* MeditationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353746172A60666E00D7C14D /* MeditationViewModel.swift */; };
+		35491B1D2A60AE880013F0B2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35491B1C2A60AE880013F0B2 /* Extensions.swift */; };
+		35491B1F2A60E91E0013F0B2 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35491B1E2A60E91E0013F0B2 /* AudioManager.swift */; };
+		35491B232A60FE090013F0B2 /* meditation1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 35491B222A60FE090013F0B2 /* meditation1.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		353746002A5FB14D00D7C14D /* Mav-Meditation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mav-Meditation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		353746032A5FB14D00D7C14D /* Mav_MeditationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mav_MeditationApp.swift; sourceTree = "<group>"; };
+		353746052A5FB14D00D7C14D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		353746072A5FB14F00D7C14D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3537460A2A5FB14F00D7C14D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		353746112A5FB24900D7C14D /* MeditationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationView.swift; sourceTree = "<group>"; };
+		353746132A5FB66A00D7C14D /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		353746152A5FB94500D7C14D /* PlaybackControlButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackControlButton.swift; sourceTree = "<group>"; };
+		353746172A60666E00D7C14D /* MeditationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationViewModel.swift; sourceTree = "<group>"; };
+		35491B1C2A60AE880013F0B2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		35491B1E2A60E91E0013F0B2 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		35491B222A60FE090013F0B2 /* meditation1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = meditation1.mp3; path = ../../../Downloads/meditation1.mp3; sourceTree = "<group>"; };
+		35491B242A60FE8E0013F0B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		353745FD2A5FB14D00D7C14D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		353745F72A5FB14D00D7C14D = {
+			isa = PBXGroup;
+			children = (
+				353746022A5FB14D00D7C14D /* Mav-Meditation */,
+				353746012A5FB14D00D7C14D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		353746012A5FB14D00D7C14D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				353746002A5FB14D00D7C14D /* Mav-Meditation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		353746022A5FB14D00D7C14D /* Mav-Meditation */ = {
+			isa = PBXGroup;
+			children = (
+				35491B242A60FE8E0013F0B2 /* Info.plist */,
+				353746032A5FB14D00D7C14D /* Mav_MeditationApp.swift */,
+				353746052A5FB14D00D7C14D /* ContentView.swift */,
+				353746112A5FB24900D7C14D /* MeditationView.swift */,
+				353746132A5FB66A00D7C14D /* PlayerView.swift */,
+				353746152A5FB94500D7C14D /* PlaybackControlButton.swift */,
+				35491B1C2A60AE880013F0B2 /* Extensions.swift */,
+				353746172A60666E00D7C14D /* MeditationViewModel.swift */,
+				35491B1E2A60E91E0013F0B2 /* AudioManager.swift */,
+				353746072A5FB14F00D7C14D /* Assets.xcassets */,
+				35491B222A60FE090013F0B2 /* meditation1.mp3 */,
+				353746092A5FB14F00D7C14D /* Preview Content */,
+			);
+			path = "Mav-Meditation";
+			sourceTree = "<group>";
+		};
+		353746092A5FB14F00D7C14D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3537460A2A5FB14F00D7C14D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		353745FF2A5FB14D00D7C14D /* Mav-Meditation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3537460E2A5FB14F00D7C14D /* Build configuration list for PBXNativeTarget "Mav-Meditation" */;
+			buildPhases = (
+				353745FC2A5FB14D00D7C14D /* Sources */,
+				353745FD2A5FB14D00D7C14D /* Frameworks */,
+				353745FE2A5FB14D00D7C14D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mav-Meditation";
+			productName = "Mav-Meditation";
+			productReference = 353746002A5FB14D00D7C14D /* Mav-Meditation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		353745F82A5FB14D00D7C14D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					353745FF2A5FB14D00D7C14D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 353745FB2A5FB14D00D7C14D /* Build configuration list for PBXProject "Mav-Meditation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 353745F72A5FB14D00D7C14D;
+			productRefGroup = 353746012A5FB14D00D7C14D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				353745FF2A5FB14D00D7C14D /* Mav-Meditation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		353745FE2A5FB14D00D7C14D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35491B232A60FE090013F0B2 /* meditation1.mp3 in Resources */,
+				3537460B2A5FB14F00D7C14D /* Preview Assets.xcassets in Resources */,
+				353746082A5FB14F00D7C14D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		353745FC2A5FB14D00D7C14D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353746062A5FB14D00D7C14D /* ContentView.swift in Sources */,
+				353746122A5FB24900D7C14D /* MeditationView.swift in Sources */,
+				35491B1F2A60E91E0013F0B2 /* AudioManager.swift in Sources */,
+				353746162A5FB94500D7C14D /* PlaybackControlButton.swift in Sources */,
+				353746042A5FB14D00D7C14D /* Mav_MeditationApp.swift in Sources */,
+				353746182A60666E00D7C14D /* MeditationViewModel.swift in Sources */,
+				353746142A5FB66A00D7C14D /* PlayerView.swift in Sources */,
+				35491B1D2A60AE880013F0B2 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3537460C2A5FB14F00D7C14D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3537460D2A5FB14F00D7C14D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3537460F2A5FB14F00D7C14D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mav-Meditation/Preview Content\"";
+				DEVELOPMENT_TEAM = JABNZH482Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mav-Meditation/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Semilore-Olujobi.Mav-Meditation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		353746102A5FB14F00D7C14D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mav-Meditation/Preview Content\"";
+				DEVELOPMENT_TEAM = JABNZH482Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mav-Meditation/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Semilore-Olujobi.Mav-Meditation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		353745FB2A5FB14D00D7C14D /* Build configuration list for PBXProject "Mav-Meditation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3537460C2A5FB14F00D7C14D /* Debug */,
+				3537460D2A5FB14F00D7C14D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3537460E2A5FB14F00D7C14D /* Build configuration list for PBXNativeTarget "Mav-Meditation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3537460F2A5FB14F00D7C14D /* Debug */,
+				353746102A5FB14F00D7C14D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 353745F82A5FB14D00D7C14D /* Project object */;
+}
